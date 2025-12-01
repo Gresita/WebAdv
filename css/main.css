@@ -142,11 +142,13 @@ nav {
   padding: 30px;
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   color: white;
   justify-content: center;
   align-items: center;
+  
 }
 
 .journey-title {
@@ -333,58 +335,13 @@ nav {
   border-radius: 30px;
   color: white;
 }
-      .header {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #0a5cd6;
-            text-decoration: none;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: #333;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #0a5cd6;
-        }
-
-        .nav-links a.active {
-            color: #0a5cd6;
-        }
-
 .hero {
     background: #ffffffa8;
     padding: 4rem 2rem;
     text-align: center;
 }
 
-        .hero-content {
+.hero-content {
             max-width: 800px;
             margin: 0 auto;
         }
@@ -569,7 +526,7 @@ nav {
             border-radius: 8px;
             cursor: pointer;
             transition: transform 0.3s, box-shadow 0.3s;
-        }
+        
 
         .cta-button:hover {
             transform: translateY(-2px);
@@ -582,27 +539,5 @@ nav {
             padding: 2rem;
             text-align: center;
             color: #666;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .nav-links {
-                gap: 1rem;
-            }
-
-            .section {
-                padding: 2rem 1.5rem;
-            }
-
-            .stat-number {
-                font-size: 2rem;
-            }
+   }
         }

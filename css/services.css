@@ -8,17 +8,23 @@
             background: linear-gradient(135deg, #0a5cd6 0%, #0849ab 100%);
             min-height: 100vh;
             color: #333;
+            
         }
 
-        .top-nav {
-            height: 70vh;
-            background: url(../images/header.jpeg);
-            background-size: cover;
-            display: flex;
-            align-items: center;
-            box-sizing: border-box;
-            padding: 0 80px;
-        }   
+.right-controls a {
+    margin-right: 25px;
+    padding: 9px 16px;
+    border-radius: 30px;
+}
+.top-nav {
+    height: 70vh;
+    background: url(../images/header.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 80px;
+}
 
 
         /* Hero Section */
@@ -267,43 +273,4 @@
             text-align: center;
             color: #666;
             border-top: 1px solid #e0e0e0;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-links {
-                gap: 1rem;
-            }
-
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .section-title h2,
-            .how-it-works h2,
-            .cta-section h2 {
-                font-size: 2rem;
-            }
-
-            .services-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .steps {
-                grid-template-columns: 1fr;
-            }
-
-            .cta-buttons {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .btn {
-                width: 100%;
-                max-width: 300px;
-            }
         }
